@@ -1,0 +1,10 @@
+<config>
+    <remove xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']/item" />
+    <append xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']">
+        <item name="casinoCoin" count="100" />
+        <item name="oldCash" count="100" />
+        <item name="resourceClayLump" count="100" />
+        <item name="resourceRockSmall" count="100" />
+    </append>
+    <!-- <set xpath="/lootcontainers/lootgroup[@name='groupBuriedTreasure']/@count">1</set> -->
+</config>

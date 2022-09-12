@@ -1,0 +1,6 @@
+<config>
+    <append xpath="/entity_classes/entity_class[@name='zombieArlene']/property[@name='Tags']/@value">,buriedTreasure</append>
+    <append xpath="/entity_classes/entity_class[@name='zombieArlene']">
+        <property name="LootListOnDeath" value="buriedTreasure" />
+    </append>
+</config>
